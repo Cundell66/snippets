@@ -10,7 +10,7 @@ export default async function Home() {
       href={`/snippets/${snippet.id}`}
       className='flex justify-between items-center p-2 border rounded'>
        <div>
-          {snippet.title} {snippet.code}
+          {snippet.title}
        </div>
        <div>View</div>
       </Link>
